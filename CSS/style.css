@@ -197,3 +197,97 @@ nav #icon:hover{
   margin-left: 550px;
   margin-top: -150px;
 }
+@media (max-width: 1115px){
+  .break{
+    display: none;
+  }
+  br{
+    display: none;
+  }
+  .secondContent{
+    margin-top: 20%;
+   margin-left: -1%;
+   display: block;
+   width: 100%;
+  }
+  #contentSpace2{
+    display: block;
+    margin-top: 50px;
+    margin-left: 0;
+  }
+  #activeDate{
+    display: block;
+    margin-left: 0;
+  }
+  label.logo{
+    font-size: 32px;
+    padding-left: 60px;
+  }
+  nav ul{
+    margin-right: 20px;
+  }
+  nav a{
+    font-size: 17px;
+  }
+  .em, .em2,
+.orange, .para1{
+  font-size:12px;
+}
+  .form2{
+    margin-top: 50px;
+    margin-right: 100px;
+  }
+  label.logo{
+    font-size: 32px;
+   margin-left: 20%;
+  }
+  nav #icon{
+    display: block;
+   
+  }
+
+  .home{
+    display: inline;
+  }
+  nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2f3640;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav li{
+    display: block;
+    margin: 50px;
+    line-height: 30px;
+  }
+  nav a{
+    font-size: 20px;
+  }
+  a:hover{
+    border: none;
+    color: #3498db;
+    background-color: transparent;
+  }
+  nav ul.show{
+    left: 0;
+  }
+  .btn{
+    display: block;
+    width: 100%;
+    background-color: green;
+    color: white;
+    font-family: montserrat;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+
+  }
+  .btn:hover{
+    background-color: lightblue;
+  }
+}
