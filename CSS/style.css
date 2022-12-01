@@ -175,3 +175,25 @@ nav #icon:hover{
   margin-top: 10px;
 
 }
+#text{
+  font-size: 25px;
+  text-align: center;
+}
+.box{
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 49px;
+}
+#contentSpace2{
+  margin-left: 46%;
+  margin-top: -13%;
+}
+.em{
+  font-style: italic;
+  color: rgb(115, 115, 115)
+}
+.secondContent{
+  margin-left: 550px;
+  margin-top: -150px;
+}
