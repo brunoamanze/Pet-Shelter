@@ -50,3 +50,90 @@ nav li{
   margin: 0 8px;
   line-height: 80px;
 }
+.para1,
+.orange{
+  color: orangered;
+}
+nav a{
+  border: 1px solid transparent;
+  color: white;
+  font-size: 18px;
+  padding: 10px 10px;
+  border-radius: 35px;
+}
+a:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  transition: .5s;
+}
+.em2{
+font-style: italic;
+color: rgb(115, 115, 115);
+}
+.home{
+  display: none;
+  color: white;
+  font-size: larger;
+}
+nav #icon{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  float: right;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#bbtn{
+  width: 200px;
+  height: 90px;
+  background-color: lightskyblue;
+  border: none;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 25px; 
+}
+#bttn:hover{
+  background-color: blue;
+}
+.info{
+  width: 80%;
+  margin-left: 5%;
+  margin-top: 15px;
+}
+.btndiv{
+  margin-left: 85%;
+  margin-top: -90px;
+}
+nav #icon:hover{
+  font-size: 40px;
+  transition: .2s;
+  transition: 3s ease-out;
+}
+.btn{
+  width:200px;
+  
+  display:none;
+}
+
+#form3, #form4,
+#form5, #form6{
+  width: 250px;
+  height: 90px;
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: none;
+  border: 1px solid rgb(189, 185, 185);
+  text-align:center;
+  color: rgb(115, 115, 115);
+}
+.form4{
+  margin-left: 880px;
+  margin-top: -90px;
+}
+.on{
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  z-index: 1;
+}
